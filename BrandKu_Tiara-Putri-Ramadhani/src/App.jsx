@@ -15,6 +15,7 @@ const App = () => {
         title="Solusi Terbaik untuk Bisnismu"
         subtitle="Platform all-in-one untuk manajemen, pemasaran, dan pertumbuhan bisnis kecil."
         buttonText="Mulai Gratis"
+        onTap={() => console.log("Button clicked!")}
       />
 
       <CardGrid features={features} />
